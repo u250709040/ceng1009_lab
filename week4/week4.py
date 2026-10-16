@@ -39,27 +39,27 @@
 # for i in range(8):
 #     t.forward(100)
 #     t.left(45)
-import turtle
-
-screen = turtle.Screen()
-screen.bgcolor("lightgreen")
-t = turtle.Turtle()
-t.shape("turtle")
-t.color("blue")
-t.pensize(5)
-
-t.stamp()
-t.penup()
-
-for i in range(12):
-    t.forward(125)
-    t.pendown()
-    t.forward(15)
-    t.penup()
-    t.forward(25)
-    t.stamp()
-    t.backward(165)
-    t.left(30)
-
-
-screen.exitonclick()
+# import turtle
+#
+# screen = turtle.Screen()
+# screen.bgcolor("lightgreen")
+# t = turtle.Turtle()
+# t.shape("turtle")
+# t.color("blue")
+# t.pensize(5)
+#
+# t.stamp()
+# t.penup()
+#
+# for i in range(12):
+#     t.forward(125)
+#     t.pendown()
+#     t.forward(15)
+#     t.penup()
+#     t.forward(25)
+#     t.stamp()
+#     t.backward(165)
+#     t.left(30)
+#
+#
+# screen.exitonclick()
